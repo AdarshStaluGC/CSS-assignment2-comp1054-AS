@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#container {
+    width: 66.66vw;
+}
+
+
+
+#container header h1 {
+    color: orange;
+    font-weight: bold; 
+    
+}
+
+#container main article h2 {
+    /* Add styles for the article headings */
+}
+
+#container main article p {
+    /* Add styles for the paragraphs */
+}
+
+#container main article p:first-of-type {
+    /* Add styles for the first paragraph under the image */
+}
+
+#container main article p:nth-of-type(2),
+#container main article p:nth-of-type(3) {
+    display: inline-block;
+    width: 50%;
+    /* Add styles for the two paragraphs side by side */
+}
+
+#container footer {
+    /* Add styles for the footer */
+}
+
+.long-paragraph {
+    width: 33.33vw;
+    /* Add styles for the long paragraph */
+}
